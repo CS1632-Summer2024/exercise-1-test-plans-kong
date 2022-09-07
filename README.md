@@ -15,6 +15,14 @@ Fall Semester 2022 - Exercise 1
 
 * DUE: September 12 (Monday), 2022 before class starts
 
+**GitHub Classroom Link:** TBD
+
+This is going to be your first group assignment.  When you click on the GitHub
+Classroom link, you will be asked to either create a new team or join an
+existing team.  Please use the team name that you listed on the Partnership
+Contract.  If your partner already created a team, join that team rather than
+create a new one.
+
 ## Description
 
 For this exercise, you and your partner will determine a **test plan** for the
@@ -90,6 +98,8 @@ this is where most of the defects will reside!
 
 ## Creating a Test Plan
 
+Write up a test plan in the report template provided [below](#format).
+
 Remember, the template for test cases -
 
 ```
@@ -139,7 +149,12 @@ postconditions.  That is because screenshots typically contain extra
 information beyond what is required for correctness (e.g. the font of the text,
 coloring, decorative images or text that is not strictly required).
 
+Please read [tips.md](tips.md) for additional hints on how to properly document
+test cases.
+
 ## Creating a Traceability Matrix
+
+Add a traceability matrix to the report template provided [below](#format).
 
 A traceability matrix allows us to correlate test cases to requirements and
 vice versa.  It allows us to check why a test case is being run (to check one
@@ -156,8 +171,6 @@ Also note that a good traceability matrix must cover all requirements to have
 no gaps in test coverage.  Please make sure of this.
 
 ## Reporting Defects
-
-Please listen to "Lecture 5: Defects" before completing this section.
 
 This is the correct format for defects -
 
@@ -206,9 +219,38 @@ report, or 2) You may not have described the reproduction steps in enough
 detail (note that sometimes even timing of input is important), or 3) The
 program may be a nondeterministic program to begin with.
 
-## Test Plan / Defect Reporting Tips
+For reporting defects, you are going to use the GitHub issue management system.
 
-Please read [tips.md](tips.md) for additional hints on how to properly document test cases and defects.
+On your GitHub classroom repository, Click on the "Issues" tab on the top.
+Initially you should have 0 open issues.  Click on the "New issue" button on
+the top right.  Fill the comment box with the defect report properly formatted
+with the 6 items shown above.  For the title, use the content of the SUMMARY
+item.  When all is filled in, click on the "Submit new issue" button.  Now if
+you click on the "Issues" tab, you should see a new open issue:
+
+<img alt="Issues list" src=img/issues_list.png width=350>
+
+Note that the issue has a "bug" tag and also has an assignee because I
+performed **triage** and determined that the issue was a bug and assigned it to
+myself.  If you open the issue, there is an option to add assignees and edit
+Labels as shown in the red box below:
+
+<img alt="Issues list" src=img/open_issue.png width=350>
+
+Perform triage on your defect as I did by adding the bug label and assigning it
+to yourself.  
+
+Eventually, the assignee will come in and either close the issue (with some
+explanation), or will create a branch to write code to resolve the issue (the
+second red box in the above figure).  After the assignee is done, he/she will
+create a pull request to merge those changes into the main branch, after which
+the project manager can come in and confirm the merge after reviewing the
+changes.  The merge will automatically close the issue.  For now, we will leave
+the issues open.  We will talk more about merging changes when we talk about CI
+(Continuous Integration) towards the end of the semester.
+
+Please find **at least three defects** and create open issues for them.  Yes,
+you can use the one I showed above as one of them.
 
 ## Format
 
@@ -293,11 +335,13 @@ discuss.  Once you are both satisfied, you may submit.
 
 ## Extra Credit
 
-* DUE: July 19 (Tuesday), 2022 11:30 AM
+* DUE: September 26 (Monday), 2022 before class starts
 
 This submission is optional.  An extra credit of 1 point out of 100 points for
 the entire course will be awarded to the group that finds the most number of
-defects in the program.  There can be multiple winners too if there is a tie!
+defects in the program.  You must have found at least 5 unique defects to
+qualify for the competition.  There can be multiple winners too if there is a
+tie!
 
 Duplicate defects that are really the same defect that is triggered by two
 different inputs will be counted only once.  How do you know if it is the same
@@ -350,10 +394,11 @@ There is no requirement that the "good" and "bad" strings have to be
 unique, or they cannot be empty strings for that matter.  This is still
 behavior conformant with the requirements.
 
-Each pairwise group shall do one submission to the **Exercise 1 Extra Credit**
-link on GradeScope in the same manner as for Exercise 1.  Please use the
+Please submit to the **Exercise 1 Extra Credit** link on GradeScope in the same
+manner as for Exercise 1.  Please use the
 [ReportTemplateExtraCredit.docx](ReportTemplateExtraCredit.docx) to write the
-report.  Make sure you number the defects so it is easy to count!  Only defects
-that I can reproduce will be counted.  That means they must be properly
-reported using the preconditions, execution steps, and postconditions template
-described on the worksheet.
+report.  In addition to the link to your GitHub issues, I am also asking you to
+attach a screenshot of the list of issues so that I can confirm you did not add
+new issues after the deadline.  Only defects that I can reproduce will be
+counted.  That means they must be properly reported using the preconditions,
+execution steps, and postconditions template described on the worksheet.
