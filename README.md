@@ -15,7 +15,7 @@ Fall Semester 2022 - Exercise 1
 
 * DUE: September 12 (Monday), 2022 before class starts
 
-**GitHub Classroom Link:** TBD
+**GitHub Classroom Link:** https://classroom.github.com/a/yZzasJFJ
 
 This is going to be your first group assignment.  When you click on the GitHub
 Classroom link, you will be asked to either create a new team or join an
@@ -284,15 +284,7 @@ format -
 	EXECUTION STEPS:
 	POSTCONDITIONS:
 
-ON A NEW PAGE, list at least two defects found.  The defects should follow the
-defect reporting template:
-
-	IDENTIFIER:
-	SUMMARY:
-	DESCRIPTION:
-	REPRODUCTION STEPS:
-	EXPECTED BEHAVIOR:
-	OBSERVED BEHAVIOR:
+ON A NEW PAGE, copy and paste the link to your GitHub repository issues page with the 3 open issues.
 
 ## Submission
 
