@@ -11,11 +11,11 @@
   * [Extra Credit](#extra-credit)
 
 # CS 1632 - Software Quality Assurance
-Fall Semester 2022 - Exercise 1
+Spring Semester 2023 - Exercise 1
 
-* DUE: September 12 (Monday), 2022 before class starts
+* DUE: January 20 (Friday), 2023 11:59 PM
 
-**GitHub Classroom Link:** https://classroom.github.com/a/yZzasJFJ
+**GitHub Classroom Link:** TBD
 
 This is going to be your first group assignment.  When you click on the GitHub
 Classroom link, you will be asked to either create a new team or join an
@@ -38,7 +38,7 @@ who is doing the testing and should be executable **independent** of one other.
 
 You will execute the above test plan to find **defects** in the software.  There
 are several known defects (10 at last count); try to find and report on at
-least **two defects**.
+least **three defects**.
 
 You may find it useful to initially do some **exploratory testing** to
 determine how the system works before coming up with a test plan.  Exploring
@@ -315,11 +315,11 @@ your grade details.  Please use the feedback wisely when doing Deliverable 1!
 
 Please create a shared online document for the report using Google Docs or
 Microsoft OneDrive or your preferred cloud service.  Each partner shall come up
-with three test cases and one defect each, for a sum of six test cases and two
-defects for the group (or more, if you wish).  The first partner shall work on
-the requirements FUN-ARGS-NUMBER and FUN-ARGS-INVALID.  The second partner
-shall work on the requirements FUN-DISPLAY-RESULTS, FUN-DISPLAY-ITERATIONS, and
-FUN-SMALL-NUM.
+with three test cases and one defect each, for a sum of six test cases and
+three defects for the group (or more, if you wish).  The first partner shall
+work on the requirements FUN-ARGS-NUMBER and FUN-ARGS-INVALID.  The second
+partner shall work on the requirements FUN-DISPLAY-RESULTS,
+FUN-DISPLAY-ITERATIONS, and FUN-SMALL-NUM.
 
 Once you are done, check each other's work to make sure that the test case
 documentation and defect reporting were done properly.  If you see issues,
@@ -327,7 +327,7 @@ discuss.  Once you are both satisfied, you may submit.
 
 ## Extra Credit
 
-* DUE: September 26 (Monday), 2022 before class starts
+* DUE: January 31 (Tuesday ), 2023 before class starts
 
 This submission is optional.  An extra credit of 1 point out of 100 points for
 the entire course will be awarded to the group that finds the most number of
