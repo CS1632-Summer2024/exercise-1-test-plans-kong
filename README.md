@@ -11,9 +11,9 @@
   * [Extra Credit](#extra-credit)
 
 # CS 1632 - Software Quality Assurance
-Summer Semester 2023 - Exercise 1
+Fall Semester 2023 - Exercise 1
 
-* DUE: July 6 (Thursday), 2023 11:30 AM
+* DUE: September 11 (Monday), 2023 before start of class
 
 **GitHub Classroom Link:** TBD
 
@@ -327,7 +327,7 @@ discuss.  Once you are both satisfied, you may submit.
 
 ## Extra Credit
 
-* DUE: July 10 (Tuesday), 2023 11:30 AM
+* DUE: September 25 (Monday), 2023 before start of class
 
 This submission is optional.  An extra credit of 1 point out of 100 points for
 the entire course will be awarded to the group that finds the most number of
