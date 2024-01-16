@@ -173,6 +173,10 @@ no gaps in test coverage.  Please make sure of this.
 
 ## Reporting Defects
 
+Please find **at least three defects** and report them through the GitHub issues system.  
+
+### Components of a Defect Report
+
 This is the correct format for defects -
 
 ```
@@ -220,38 +224,97 @@ report, or 2) You may not have described the reproduction steps in enough
 detail (note that sometimes even timing of input is important), or 3) The
 program may be a nondeterministic program to begin with.
 
-For reporting defects, you are going to use the GitHub issue management system.
+### GitHub Bug Tracking System
+
+To get hands on experience in defect reporting, tracking, and resolution, you
+are going to use the GitHub issue management system.
 
 On your GitHub classroom repository, Click on the "Issues" tab on the top.
 Initially you should have 0 open issues.  Click on the "New issue" button on
 the top right.  Fill the comment box with the defect report properly formatted
 with the 6 items shown above.  For the title, use the content of the SUMMARY
-item.  When all is filled in, click on the "Submit new issue" button.  Now if
-you click on the "Issues" tab, you should see a new open issue:
+item.  When all is filled in, click on the "Submit new issue" button.  
 
-<img alt="Issues list" src=img/issues_list.png>
-
-Note that the issue has a "bug" tag and also has an assignee because I
-performed **triage** and determined that the issue was a bug and assigned it to
-myself.  If you open the issue, there is an option to add assignees and edit
-Labels as shown in the red box below:
+After the issue is submitted, perform **triage** and tag the issue as a "bug"
+and assign it to one of the group members, as shown below in the first red box:
 
 <img alt="Issues list" src=img/open_issue.png>
 
-Perform triage on your defect as I did by adding the bug label and assigning it
-to yourself.  
+Now if you click on the "Issues" tab, you should see the new open issue:
 
-Eventually, the assignee will come in and either close the issue (with some
-explanation), or will create a branch to write code to resolve the issue (the
-second red box in the above figure).  After the assignee is done, he/she will
-create a pull request to merge those changes into the main branch, after which
-the project manager can come in and confirm the merge after reviewing the
-changes.  The merge will automatically close the issue.  For now, we will leave
-the issues open.  We will talk more about merging changes when we talk about CI
-(Continuous Integration) towards the end of the semester.
+<img alt="Issues list" src=img/issues_list.png>
 
-Please find **at least three defects** and create open issues for them.  Yes,
-you can use the one I showed above as one of them.
+Now, it is time to resolve the issue.  Have the assignee for the issue open the
+issue by clicking on it, and then have her click the "Create a branch" link
+shown in the second red box above.  This will create a new **git branch** to work
+on the issue.  Once you are done creating the branch, you should see it appear
+on the issue page (see red box):
+
+<img alt="create branch" src=img/create_branch.png>
+
+Now click on the branch name (in this case,
+"1-when-42-is-passed-as-the-number-of-times...").  That would take you to the
+newly created branch as below:
+
+<img alt="open branch" src=img/open_branch.png>
+
+Make sure that the branch selector indicates the newly created issue branch,
+not the main branch, as seen in the red box above.  Now, we were doing black
+box testing, so we do not have access to the source code.  So, we are going to
+resolve this issue by sneakily adding a new requirement to the requirements
+specification, and then claim that this is a feature, not a bug.  Navigate to
+the requirements.md file and add the new requirement as shown below in the red
+box: 
+
+<img alt="edit requirement" src=img/edit_requirement.png>
+
+Go ahread and commit the change to the issue branch.  Now that we are done with
+our fix, we are going to create a **pull request**, which is a request to pull
+the changes in the issue branch into the main branch.  One or more people can
+review that request and make sure everything is kosher before pulling
+everything into the main branch, because updating the main branch comes with
+risks.  Create the pull request by clicking on the "Pull requests" tab and
+clicking on the "New pull request" button as showin in the red box below:
+
+<img alt="create pull request" src=img/create_pull_request.png>
+
+In the ensuing page, select the issue branch as the source branch as indicated
+in the red box below:
+
+<img alt="compare changes" src=img/compare_changes.png>
+
+You can review the changes that will be pulled into the main branch as a result
+of this pull request in green color.  If you are satisfied, go ahead and cluck
+on the "Create pull request" button.  If you follow through, you will see the
+new pull request created as seen below:
+
+<img alt="merge pull request" src=img/merge_pull_request.png>
+
+You can see that the issue branch has no merge conflicts with the main branch,
+and that you have the option to add one or more reviewers before merging.  If
+you had a CI (Continuous Integration) pipeline, then automated testing would
+typically be performed on the issue branch at this point, but that will come
+later in the semester. :)  for now, we are happy to merge the branch.  Click on
+the "Merge pull request" button to do so.  Go ahead and confirm the merge when
+prompted to do so.  You will see the pull request now successfully merged and
+closed as you see below:
+
+<img alt="merge pull request" src=img/merge_pull_request.png>
+
+Delete the branch by clicking on the "Delete branch" button since you no longer
+need the branch since it is already merged.  Closing the pull request will
+automatically close the issue associated with that pull request, so that when
+you click on the "Issues" tab, you will no longer see any open issues.  Now you
+need to click on the "Closed" issues tab indcated by the red box below to see
+the closed issue:
+
+<img alt="closed issue" src=img/closed_issue.png>
+
+Now, as you may have guessed, the above defect is a bogus defect.  Please find
+three real defects, open issues for them, and close them using the process
+above, by modifying the requirements to turn the bugs into features.  Of
+course, in a real world scenario, you would most likely modify the source code,
+not the requirements, but the process would be the same.
 
 ## Format
 
@@ -285,7 +348,7 @@ format -
 	EXECUTION STEPS:
 	POSTCONDITIONS:
 
-ON A NEW PAGE, copy and paste the link to your GitHub repository issues page with the 3 open issues.
+ON A NEW PAGE, copy and paste the link to your GitHub repository issues page with the 3 closed issues.
 
 ## Submission
 
