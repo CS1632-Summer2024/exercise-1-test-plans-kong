@@ -4,6 +4,6 @@ FUN-ARGS-INVALID - If an argument is invalid for any reason (such as, the argume
 
 FUN-DISPLAY-RESULTS - The system shall display the results of Monty Hall simulation to the user, using percentages with up to three places after the decimal, and then stop execution.  This display shall print out the passed-in String versions of the "good" and "bad" options as defined in the arguments.
 
-FUN-DISPLAY-ITERATIONS - The system shall display the number of iterations executed by each thread, where there are as many threads as specified in the arguments.  The sum of the number of iterations shall be equal to the number times specified in the arguments.  Each thread shall execute an equal share of the number of times, or be off by at most 1 if number of times is not a multiple of the number of threads.
+FUN-DISPLAY-ITERATIONS - The system shall display the number of iterations executed by each thread, where there are as many threads as specified in the arguments.  The sum of the number of iterations shall be equal to the number of times specified in the arguments.  Each thread shall execute an equal share of the number of times, or be off by at most 1 if number of times is not a multiple of the number of threads.
 
 FUN-SMALL-NUM - If the "number of times" argument is less than 100, the system shall issue a warning and ask the user if they wish to continue.
