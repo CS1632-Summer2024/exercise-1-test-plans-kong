@@ -16,7 +16,7 @@ Spring Semester 2024 - Exercise 1
 
 * DUE: January 15 (Sunday), 2024 11:59 PM
 
-**GitHub Classroom Link:** TBD
+**GitHub Classroom Link:** https://classroom.github.com/a/ca4Vo1H6
 
 This is going to be your first group assignment.  When you click on the GitHub
 Classroom link, you will be asked to either create a new team or join an
@@ -29,10 +29,11 @@ create a new one.
 For this exercise, you and your partner will determine a **test plan** for the
 simple simulator GoatGoatCar, based on the requirements listed.
 
-* There should be at least **6 test cases** altogether.
+* There should be at least **5 test cases** for the 5 requirements.
 * Test cases should have unambiguous preconditions, execution steps, and
   postconditions.  Remember, a test case should be **reproducible** no matter
 who is doing the testing and should be executable **independent** of one other.
+* There should be at least one base case, one edge case, and one corner case in the mix of test cases.
 * The test plan should include a **traceability matrix** showing the
   mapping of test cases to requirements.  The traceability matrix should
 **cover all requirements** for good test coverage.
