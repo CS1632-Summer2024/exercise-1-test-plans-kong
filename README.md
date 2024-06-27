@@ -12,11 +12,11 @@
   * [Extra Credit](#extra-credit)
 
 # CS 1632 - Software Quality Assurance
-Spring Semester 2024 - Exercise 1
+Summer Semester 2024 - Exercise 1
 
-* DUE: January 21 (Sunday), 2024 11:59 PM
+* DUE: July 2 (Tuesday), 2024 before start of class
 
-**GitHub Classroom Link:** https://classroom.github.com/a/ca4Vo1H6
+**GitHub Classroom Link:** TBD
 
 This is going to be your first group assignment.  When you click on the GitHub
 Classroom link, you will be asked to either create a new team or join an
@@ -381,21 +381,17 @@ your grade details.  Please use the feedback wisely when doing Deliverable 1!
 
 ## Groupwork Plan
 
-Please create a shared online document for the report using Google Docs or
-Microsoft OneDrive or your preferred cloud service.  Each partner shall come up
-with three test cases and one defect each, for a sum of six test cases and
-three defects for the group (or more, if you wish).  The first partner shall
-work on the requirements FUN-ARGS-NUMBER and FUN-ARGS-INVALID.  The second
-partner shall work on the requirements FUN-DISPLAY-RESULTS,
-FUN-DISPLAY-ITERATIONS, and FUN-SMALL-NUM.
-
-Once you are done, check each other's work to make sure that the test case
-documentation and defect reporting were done properly.  If you see issues,
-discuss.  Once you are both satisfied, you may submit.
+I suggest that you create a shared document that both of you can work on using
+Google Docs or Microsoft OneDrive or your preferred cloud service.  You might
+consider dividing up the requirements equally between the two of you (first one
+does FUN-ARGS-NUMBER / FUN-ARGS-INVALID, and second one does
+FUN-DISPLAY-RESULTS / FUN-DISPLAY-ITERATIONS / FUN-SMALL-NUM).  Please check
+each other's work before submission.  The important thing is that both of you
+learn from doing the exercise!  
 
 ## Extra Credit
 
-* DUE: February 6 (Tuesday), 2024 before start of class
+* DUE: July 9 (Tuesday), 2024 before start of class
 
 This submission is optional.  An extra credit of 1 point out of 100 points for
 the entire course will be awarded to the group that finds the most number of
