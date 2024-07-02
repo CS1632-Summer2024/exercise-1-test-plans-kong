@@ -11,3 +11,5 @@ FUN-SMALL-NUM - If the "number of times" argument is less than 100, the system s
 FUN-MAXINT-NUM - If the "number of times" is equal to 2147483648, the system displays "Integer overflow detected" and the program shuts down.
 
 FUN-LARGE-THREADS- If the "number of threads" argument is greater than 2000000000 (not the exact boundary), the system displays "Exceed maximum threads" and the program shuts down.
+
+FUN-MININT-NUM - If the "number of threads" argument is  equal to -2147483648, the system displays "Exceed maximum threads" and the program shuts down.
